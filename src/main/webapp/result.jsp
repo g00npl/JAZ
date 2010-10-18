@@ -11,9 +11,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Insert title here</title>
+
 </head>
 <body>
-Imie: <jsp:getProperty name="mybean" property="imie"/><br />
-Rok: <jsp:getProperty name="mybean" property="rok"/><br />
+Czy dane są poprawne? <br /><br />
+<b>Imie:</b> <jsp:getProperty name="mybean" property="imie"/><br />
+<b>Rok:</b> <jsp:getProperty name="mybean" property="rok"/><br /><br /><br />
+<form style="float:left" action="dopisz.jsp">
+<input type="submit" value="Tak, są poprawne"/>
+</form>
+<form tyle="float:left" action="hello.jsp">
+<input type="submit" value="Nie, chce je poprawić"/>
+</form>
+
 </body>
 </html>
