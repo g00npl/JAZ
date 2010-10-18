@@ -8,7 +8,7 @@
 	<name>somewebapp Java EE 6</name>
 	<url>http://maven.apache.org</url>
 	<repositories>
-		<!-- Several key Java EE APIs and RIs are missing from the Maven Central 
+		<!--  test Several key Java EE APIs and RIs are missing from the Maven Central 
 			Repository -->
 		<!-- The goal is to eventually eliminate the reliance on the JBoss repository -->
 		<repository>
