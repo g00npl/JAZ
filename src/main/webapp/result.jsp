@@ -5,16 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>That Page Is Kewl</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>My first JSP <%=new java.util.Date() %></h1>
-<p>
-<form action="result.jsp">
-Imie: <input type="text" name="imie" /><br />
-Rok urodzenia: <input type="text" name="rok" /><br />
-<input type="submit" value="OK"/>
-</form>
-</p>
+Osoba: <%=request.getParameter("imie")%><br />
+Rok urodzenia: <%=request.getParameter("rok")%><br />
 </body>
 </html>
